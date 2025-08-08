@@ -41,3 +41,6 @@ with open('Tessa.ics', 'w') as f:
 
 with open('Daniel.ics', 'w') as f:
     f.writelines(cal_generator(c, "daniel", "DS").serialize_iter())
+
+with open('Daniel.ics', 'r') as f:
+    print(f.read())
