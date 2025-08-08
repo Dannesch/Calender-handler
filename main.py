@@ -36,11 +36,8 @@ def cal_generator(calendar: Calendar, full_name: str, initals: str):
     return my_events
 
 
-with open('Tessa.ics', 'w') as f:
+with open('calendar/Tessa.ics', 'w') as f:
     f.writelines(cal_generator(c, "tessa", "TY").serialize_iter())
 
-with open('Daniel.ics', 'w') as f:
+with open('calendar/Daniel.ics', 'w') as f:
     f.writelines(cal_generator(c, "daniel", "DS").serialize_iter())
-
-with open('Daniel.ics', 'r') as f:
-    print(f.read())
