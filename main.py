@@ -29,7 +29,7 @@ def cal_generator(calendar: Calendar, full_name: str, initals: str, add_internal
                 my_events.events.add(e)
                 continue
 
-            if ["fler", "flera", "alla"] in name.lower() and add_misc:
+            if name.lower() in ["fler", "flera", "alla"] and add_misc:
                 my_events.events.add(e)
                 continue
 
@@ -54,4 +54,5 @@ with open('calendar/Tessa.ics', 'w') as f:
     f.writelines(cal_generator(c, "tessa", "TY", add_pr=True).serialize_iter())
 
 with open('calendar/Daniel.ics', 'w') as f:
+
     f.writelines(cal_generator(c, "daniel", "DS").serialize_iter())
