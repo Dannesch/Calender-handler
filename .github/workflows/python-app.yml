@@ -35,5 +35,6 @@ jobs:
         git config user.email 41898282+github-actions[bot]@users.noreply.github.com
         git add calendar/Daniel.ics
         git add calendar/Tessa.ics
+        got add calendar/Henri.ics
         if [ "$GIT_STATUS" != "" ]; then git commit -m "Automated commit"; fi
         if [ "$GIT_STATUS" != "" ]; then git push; fi
