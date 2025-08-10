@@ -14,6 +14,10 @@ def cal_generator(calendar: Calendar, full_name: str, initals: str, add_internal
         if "]" not in name:
             if full_name in name.lower():
                 my_events.events.add(e)
+                continue
+            if "pr" in name.lower() and add_pr:
+                my_events.events.add(e)
+                continue
             continue
 
         # if gig and contains name
@@ -29,7 +33,7 @@ def cal_generator(calendar: Calendar, full_name: str, initals: str, add_internal
                 my_events.events.add(e)
                 continue
 
-            if name.lower() in ["fler", "flera", "alla"] and add_misc:
+            if name.lower() in  ["fler", "flera", "alla"] and add_misc:
                 my_events.events.add(e)
                 continue
 
@@ -54,5 +58,7 @@ with open('calendar/Tessa.ics', 'w') as f:
     f.writelines(cal_generator(c, "tessa", "TY", add_pr=True).serialize_iter())
 
 with open('calendar/Daniel.ics', 'w') as f:
-
     f.writelines(cal_generator(c, "daniel", "DS").serialize_iter())
+    
+with open('calendar/Henri.ics', 'w') as f:
+    f.writelines(cal_generator(c, "henri", "HA").serialize_iter())
