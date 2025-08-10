@@ -15,6 +15,7 @@ def cal_generator(calendar: Calendar, full_name: str, initals: str, add_internal
             if full_name in name.lower():
                 my_events.events.add(e)
                 continue
+
             if "pr" in name.lower() and add_pr:
                 my_events.events.add(e)
                 continue
@@ -29,11 +30,8 @@ def cal_generator(calendar: Calendar, full_name: str, initals: str, add_internal
                 names.append(name)
                 continue
 
+            # Special cases ##########################
             if name.lower() == "internt" and add_internal:
-                my_events.events.add(e)
-                continue
-
-            if name.lower() in  ["fler", "flera", "alla"] and add_misc:
                 my_events.events.add(e)
                 continue
 
@@ -41,11 +39,24 @@ def cal_generator(calendar: Calendar, full_name: str, initals: str, add_internal
                 my_events.events.add(e)
                 continue
 
-            for name in name.split( ):
-                name = name.strip()
-                if len(name) == 2:
-                    names.append(name)
-                    continue
+            if name.lower() in  ["fler", "flera", "alla"] and add_misc:
+                my_events.events.add(e)
+                continue
+            ##########################################
+
+            if "/" in name:
+                for name in name.split("/"):
+                    name = name.strip()
+                    if len(name) == 2:
+                        names.append(name)
+                        continue
+
+            if " " in name:
+                for name in name.split( ):
+                    name = name.strip()
+                    if len(name) == 2:
+                        names.append(name)
+                        continue
 
         for name in names:
             if initals == name:
