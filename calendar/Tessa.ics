@@ -6,7 +6,7 @@ CREATED:20250807T225839Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20251025
 DTEND;VALUE=DATE:20251026
-DTSTAMP:20250929T221455Z
+DTSTAMP:20250929T223632Z
 LAST-MODIFIED:20250807T225839Z
 STATUS:CONFIRMED
 SUMMARY:[Alla] TP1
@@ -18,7 +18,7 @@ CREATED:20250911T220146Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20251107
 DTEND;VALUE=DATE:20251108
-DTSTAMP:20250929T221455Z
+DTSTAMP:20250929T223632Z
 DESCRIPTION:Om inte Bandtäfvlan sker planeras det en Chapter Jam! Dialog med Amandos sker nu och kommer uppdatera med mer info när det är bestämt. Asterix och NKM är också informerade om detta datum samt event förslag.
 LAST-MODIFIED:20250911T220305Z
 STATUS:CONFIRMED
@@ -31,7 +31,7 @@ CREATED:20250912T073542Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20260131
 DTEND;VALUE=DATE:20260201
-DTSTAMP:20250929T221455Z
+DTSTAMP:20250929T223632Z
 LAST-MODIFIED:20250912T073542Z
 STATUS:CONFIRMED
 SUMMARY:[Internt] Kortaccesser går ut
@@ -41,7 +41,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20250902T151247Z
 SEQUENCE:0
-DTSTAMP:20250929T221455Z
+DTSTAMP:20250929T223632Z
 DESCRIPTION:<p>Hej\,<u></u><u></u></p><p><u></u> <u></u></p><p>Jag fick er kontakt av Victoria Wennberg på THS\, KTH. Jag kommer att ha ett kvällsevent tisdagen den 30/9 på THS\, närmare bestämt på Hyllan och i Nya matsalen i Nymble. Programmet ser ut som följer:<u></u><u></u></p><p><u></u> <u></u></p><p>- Från kl. 19.00: Registrering innanför dörrarna i Nya matsalen<u></u><u></u></p><p>- 19.00-20.00 Mat och dryck (mingel) på hyllan (buffébord i mittgången\, baren längst bak)<u></u><u></u></p><p>Kan ni ombesörja en ljudanläggning på hyllan för detta mingel\, som vi kan koppla en smartphone till?<u></u><u></u></p><p><u></u> <u></u></p><p>- 20.00-22.00 Biosittning i Nya matsalen<u></u><u></u></p><p>Kan ni hjälpa oss här med audio\, 3 mikrofoner och högtalare\, och projektor för bild/videovisning från lap-top? Projektor kanske finns installerad i Nya Matsalen? Om ni inte vet det kan jag höra med Victoria W.<u></u><u></u></p><p><u></u> <u></u></p><p>Med vänlig hälsning<u></u><u></u></p><p><u></u> <u></u></p><p>/ Peter Hagström</p>
 DTEND:20250930T210000Z
 LAST-MODIFIED:20250926T005800Z
@@ -54,7 +54,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20250925T185332Z
 SEQUENCE:0
-DTSTAMP:20250929T221455Z
+DTSTAMP:20250929T223632Z
 DTEND:20251030T200000Z
 LAST-MODIFIED:20250925T185332Z
 DTSTART:20251030T180000Z
@@ -68,7 +68,7 @@ CREATED:20250528T173821Z
 SEQUENCE:0
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20251102
-DTSTAMP:20250929T221455Z
+DTSTAMP:20250929T223632Z
 LAST-MODIFIED:20250612T142637Z
 STATUS:CONFIRMED
 SUMMARY:[Internt] PAKS
